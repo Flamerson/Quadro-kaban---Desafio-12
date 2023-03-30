@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Kanban</title>
+</head>
+<body>
+    <div class="app">
+        <nav class="navbar">
+             <img src="./assets/Vector.svg" alt="Logo ">
+    
+             <ul>
+                <li><a href="#" class="active"> <img src="./assets/Vector (10).svg" alt=""> Boards</a></li>
+                <li><a href="#"> <img src="./assets/Vector (4).svg" alt=""> Equipes</a></li>
+                <li><a href="#"> <img src="./assets/Vector (7).svg" alt=""> Relatórios</a></li>
+                <li><a href="#"> <img src="./assets/Vector (8).svg" alt=""> Ajustes</a></li>
+             </ul>
+    
+        </nav>
+    
+        <div class="kanban">
+            <div class="name">
+                <h1>Meu Kanban <img src="./assets/Vector (11).svg" alt=""> </h1>
+                
+                <div class="img"></div>
+            </div>
+    
+            <div class="search-location">
+                <button class="filter-btn"> <img src="./assets/filter.svg" alt=""> filtrar</button>
+                <input type="text" placeholder="Busque por cards, assuntos ou responsáveis...">
+            </div>
+    
+            <div class="boards">
+    
+                <div class="board">
+                    <h3>A fazer</h3>
+                    <div class="card" draggable="true">
+                        <h4>#boraCodar um Kanban</h4>
+                        <p>Novo desafio do $boraCodar da Rocketseat, onde é proposto construir um kanban.</p>
+                        <div class="tag-text">
+                            <p>Rocketseat</p>
+                            <p>Desafio</p>
+                        </div>
+                    </div>
+
+                </div>
+    
+                <div class="board" >
+                    <h3>Fazendo</h3>
+                    <div class="card" draggable="true">
+                        <h4>#boraCodar um Kanban</h4>
+                        <p>Novo desafio do $boraCodar da Rocketseat, onde é proposto construir um kanban.</p>
+                        <div class="tag-text">
+                            <p>Rocketseat</p>
+                            <p>Desafio</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="board">
+                    <h3>Feito</h3>
+                    <div class="card" draggable="true">
+                        <h4>#boraCodar um Kanban</h4>
+                        <p>Novo desafio do $boraCodar da Rocketseat, onde é proposto construir um kanban.</p>
+                        <div class="tag-text">
+                            <p>Rocketseat</p>
+                            <p>Desafio</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+    
+        </div>
+    </div>
+
+
+    <script src="./javascript/drag.js"></script>
+</body>
+</html
